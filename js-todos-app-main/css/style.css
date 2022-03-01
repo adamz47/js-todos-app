@@ -1,0 +1,61 @@
+.todoList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-note {
+  list-style: none;
+  font-size: 25px;
+}
+.todos {
+  margin: 20px;
+  border-radius: 7px;
+  background: #f9fafb;
+  min-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.6s ease;
+}
+.todos li {
+  flex: 1;
+  margin-left: 5px;
+}
+
+/* buttton style */
+.note-delete {
+  color: #000;
+  background-color: #ffc107;
+  border-color: #ffc107;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.note-delete:hover {
+  color: #000;
+  background-color: #ffca2c;
+  border-color: #ffc720;
+}
+
+.note-done {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.note-done:hover {
+  color: #fff;
+  background-color: #bb2d3b;
+  border-color: #b02a37;
+}
+
+/* style for the completed button */
+.completed {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.clear {
+  transform: translateZ(0) rotateY(90deg);
+  opacity: 0.5;
+}
